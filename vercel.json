@@ -4,10 +4,5 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
-  "env": {
-    "TARGET_DOMAIN": "panel.perfooden.com:2087",
-    "TARGET_PATH": "/",
-    "VERCEL_XHTTP_RELAY_UPSTREAM": "https://panel.perfooden.com:2087"
-  },
   "trailingSlash": false
 }
