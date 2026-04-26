@@ -4,5 +4,9 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index" }
   ],
+  "env": {
+    "VERCEL_XHTTP_RELAY_UPSTREAM": "https://panel.perfooden.com:2087",
+    "VERCEL_XHTTP_RELAY_PATH": "/my-secret-path"
+  },
   "trailingSlash": false
 }
